@@ -3,7 +3,8 @@ let moveE = new Array(NUM);
 let loc, vel, col, diameter, sw;
 
 function setup() {
-    createCanvas(800, 600, P2D);
+    var canvas=createCanvas(800, 600, P2D);
+    canvas.parent("canvas");
     colorMode(HSB, 360, 100, 100, 100);
     noStroke();
     frameRate(60);

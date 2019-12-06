@@ -2,7 +2,8 @@ let col;
 let colrect;
 
 function setup() {
-    createCanvas(800, 600, P2D);
+    var canvas=createCanvas(800, 600, P2D);
+    canvas.parent("canvas");
     colorMode(HSB, 360, 100, 100, 100);
 
     col = color(220, 100, 100, 20);
