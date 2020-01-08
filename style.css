@@ -1,3 +1,9 @@
-body{
-    margin: 10px;
-}
+.f-container {
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+        }
+
+        .f-item {
+            padding: 0.3em;
+        }
