@@ -1,9 +1,13 @@
 .f-container {
-            display: flex;
-            /* flex-direction: column; */
-            flex-wrap: wrap;
-        }
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
 
-        .f-item {
-            padding: 0.3em;
-        }
+.f-item {
+    padding: 0.3em;
+}
+
+.f-item img{
+    width:100%;
+}
