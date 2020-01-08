@@ -49,3 +49,9 @@ class Mover {
         }
     }
 }
+function keyPressed() {
+    if (key === 's') {
+        console.log('key-s');
+        saveCanvas('mo-002_01', 'png');
+    }
+}

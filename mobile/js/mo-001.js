@@ -27,3 +27,9 @@ class MoveEllipse {
         }
     }
 }
+function keyPressed() {
+    if (key === 's') {
+        console.log('key-s');
+        saveCanvas('mo-001_01', 'png');
+    }
+}
